@@ -7,7 +7,8 @@ function destructivelyAddElementToBeginningOfArray(array, element){ array.unshif
   return array}
 
 function addElementToEndOfArray(array, element){
- array.slice
+ var Arr2 = [...array, element]
+  return Arr2
 }
 function destructivelyAddElementToEndOfArray(array, element){
   array.push(element)
